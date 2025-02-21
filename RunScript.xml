@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Test Suite">
+    <listeners>
+        <listener class-name="reuse.AllureLog4jListener"/>
+    </listeners>
+    <test name="Demo Tests">
+        <classes>
+            <class name="LoginTest.LoginRunner"/>
+            <class name="ProductDetailsTest.ProductRunner"/>
+        </classes>
+    </test>
+</suite>
